@@ -1,7 +1,12 @@
 class GoldenDog
-  attr_reader :name
+   attr_reader :name
 
   def initialize(name)
-    @name = name
+    @name = name 
+    @tricks = []
+  end 
+  
+  def add_trick(trick)
+
   end
 end
